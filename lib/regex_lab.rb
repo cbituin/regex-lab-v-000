@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-
+/\A[aeiouAEIOU]/.match(word) != word
 
 # <<<<<<< HEAD
 # if /\A[aeiouAEIOU]/.match(word)
