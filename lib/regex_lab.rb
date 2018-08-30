@@ -1,7 +1,13 @@
 def starts_with_a_vowel?(word)
+<<<<<<< HEAD
  if /\A[aeiouAEIOU]/.match(word)
    true 
  else
+=======
+ if /\A[aeiou]/.scan(word)
+   true 
+ elsif /\A[^aeiou]/.scan(word)
+>>>>>>> 216c1d178afa2b81d7dbaeac69c2e651ede6cb63
    false
  end
 end
